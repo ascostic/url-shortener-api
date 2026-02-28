@@ -2,7 +2,7 @@
 
 A RESTful URL Shortener service built using Django REST Framework.
 
-## 🚀 Features
+## Features
 
 - Create short URLs from long URLs
 - Automatic unique short code generation
@@ -12,7 +12,7 @@ A RESTful URL Shortener service built using Django REST Framework.
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - Python
 - Django
@@ -21,7 +21,7 @@ A RESTful URL Shortener service built using Django REST Framework.
 
 ---
 
-## 📦 Installation
+## Installation
 
 Clone the repository:
 
