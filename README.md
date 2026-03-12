@@ -1,15 +1,18 @@
 # URL Shortener API
 
-A RESTful URL Shortener service built using Django REST Framework.
+A RESTful backend service that converts long URLs into short links using **Django** and **Django REST Framework**.
+
+The system generates a unique short code for each URL and redirects users to the original link when the shortened URL is accessed.
+
+---
 
 ## Features
 
-- Create short URLs from long URLs
-- Automatic unique short code generation
-- Redirect to original URL
-- Click count tracking
-- Clean REST API design
-
+- Generate shortened URLs
+- Redirect short links to original URLs
+- REST API architecture
+- Unique short code generation
+- Developer-friendly setup
 ---
 
 ## Tech Stack
@@ -17,8 +20,20 @@ A RESTful URL Shortener service built using Django REST Framework.
 - Python
 - Django
 - Django REST Framework
-- SQLite (Development)
+- SQLite
+- Makefile automation
 
+---
+## Project Structure
+
+url_shortener/
+│
+├── config/ # Django project configuration
+├── shortener/ # URL shortener application
+├── manage.py # Django entry point
+├── requirements.txt
+├── Makefile
+└── README.md
 ---
 
 ## Installation
